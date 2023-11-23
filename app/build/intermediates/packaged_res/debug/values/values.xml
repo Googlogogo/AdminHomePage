@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="green">#00FF00</color>
+    <color name="light_blue">#FF00FFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">AdminHomePage</string>
+    <style name="Base.Theme.AdminHomePage" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AdminHomePage" parent="Base.Theme.AdminHomePage"/>
+</resources>

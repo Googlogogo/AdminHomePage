@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.adminhomepage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:5:5-77
+11-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:5:22-74
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/25d17c91d5902985514078e82b64555a/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.adminhomepage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/25d17c91d5902985514078e82b64555a/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/25d17c91d5902985514078e82b64555a/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.adminhomepage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/25d17c91d5902985514078e82b64555a/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/25d17c91d5902985514078e82b64555a/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:7:5-53:19
+20        android:allowBackup="true"
+20-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/25d17c91d5902985514078e82b64555a/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:10:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.AdminHomePage" >
+31-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:15:9-51
+32        <activity
+32-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:17:9-19:40
+33            android:name="com.example.adminhomepage.ComplaintDetailsPage"
+33-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:18:13-49
+34            android:exported="false" />
+34-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:19:13-37
+35        <activity
+35-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:20:9-22:40
+36            android:name="com.example.adminhomepage.AnnouncementDetailsPage"
+36-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:21:13-52
+37            android:exported="false" />
+37-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:22:13-37
+38        <activity
+38-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:23:9-25:40
+39            android:name="com.example.adminhomepage.FeedbackSummaryPage"
+39-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:24:13-48
+40            android:exported="false" />
+40-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:25:13-37
+41        <activity
+41-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:26:9-28:40
+42            android:name="com.example.adminhomepage.NewEvent"
+42-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:27:13-37
+43            android:exported="false" />
+43-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:28:13-37
+44        <activity
+44-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:29:9-31:40
+45            android:name="com.example.adminhomepage.NotificationHelper"
+45-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:30:13-47
+46            android:exported="false" />
+46-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:31:13-37
+47        <activity
+47-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:32:9-34:40
+48            android:name="com.example.adminhomepage.NewAnnouncement"
+48-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:33:13-44
+49            android:exported="false" />
+49-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:34:13-37
+50        <activity
+50-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:35:9-37:40
+51            android:name="com.example.adminhomepage.ComplaintsPage"
+51-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:36:13-43
+52            android:exported="false" />
+52-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:37:13-37
+53        <activity
+53-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:38:9-40:40
+54            android:name="com.example.adminhomepage.EventPage"
+54-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:39:13-38
+55            android:exported="false" />
+55-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:40:13-37
+56        <activity
+56-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:41:9-43:40
+57            android:name="com.example.adminhomepage.AnnouncementPage"
+57-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:42:13-45
+58            android:exported="false" />
+58-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:43:13-37
+59        <activity
+59-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:44:9-52:20
+60            android:name="com.example.adminhomepage.MainActivity"
+60-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:45:13-41
+61            android:exported="true" >
+61-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:46:13-36
+62            <intent-filter>
+62-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:47:13-51:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:48:17-69
+63-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:48:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:50:17-77
+65-->/Users/gogo/Programming/GogoAndroid/AdminHomePage/app/src/main/AndroidManifest.xml:50:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/2359ec2300da750368c8a650184da00c/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/2359ec2300da750368c8a650184da00c/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+71            android:authorities="com.example.adminhomepage.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/2359ec2300da750368c8a650184da00c/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/2359ec2300da750368c8a650184da00c/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/2359ec2300da750368c8a650184da00c/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/2359ec2300da750368c8a650184da00c/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/2359ec2300da750368c8a650184da00c/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/256f8c565a10b3fc35e8921b8ae819ff/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/256f8c565a10b3fc35e8921b8ae819ff/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/256f8c565a10b3fc35e8921b8ae819ff/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+81                android:value="androidx.startup" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+82        </provider>
+83
+84        <receiver
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+85            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+86            android:directBootAware="false"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+87            android:enabled="true"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+88            android:exported="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+89            android:permission="android.permission.DUMP" >
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+91                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+94                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+97                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+100                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/acd09e5d0cd94e2c3bbe30c0da31ed63/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+101            </intent-filter>
+102        </receiver>
+103    </application>
+104
+105</manifest>
