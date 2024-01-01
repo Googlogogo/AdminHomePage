@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.example.adminhomepage",
+  "applicationId": "com.example.login_backend",
   "variantName": "debug",
   "elements": [
     {

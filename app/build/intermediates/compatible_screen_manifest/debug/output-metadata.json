@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.adminhomepage",
+  "applicationId": "com.example.login_backend",
   "variantName": "debug",
   "elements": []
 }

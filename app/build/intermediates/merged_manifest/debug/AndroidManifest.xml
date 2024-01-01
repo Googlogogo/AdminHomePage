@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.adminhomepage"
+    package="com.example.login_backend"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,13 +8,14 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="com.example.adminhomepage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.example.login_backend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.adminhomepage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.example.login_backend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -28,47 +29,172 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AdminHomePage" >
+        android:theme="@style/Theme.Material3.Dark" >
         <activity
-            android:name="com.example.adminhomepage.ComplaintDetailsPage"
+            android:name="com.example.login_backend.StudentLoginPresenter"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.AnnouncementDetailsPage"
+            android:name="com.example.login_backend.StudentLoginModel"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.FeedbackSummaryPage"
+            android:name="com.example.login_backend.NewComplaint"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.NewEvent"
+            android:name="com.example.login_backend.ComplaintsPage"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.NotificationHelper"
+            android:name="com.example.login_backend.StudentEventHomePage"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.NewAnnouncement"
+            android:name="com.example.login_backend.StudentEventFeedbackPage"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.ComplaintsPage"
+            android:name="com.example.login_backend.OutMathPOStQualification"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.EventPage"
+            android:name="com.example.login_backend.InMathPOStQualification"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.AnnouncementPage"
+            android:name="com.example.login_backend.OutStatsPOStQualification"
             android:exported="false" />
         <activity
-            android:name="com.example.adminhomepage.MainActivity"
-            android:exported="true" >
+            android:name="com.example.login_backend.InStatsPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.MathPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.POStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.CSPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.OutCSPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.StatsPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.admin_page"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ViewEvent"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.Register"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Dark.NoActionBar" />
+        <activity
+            android:name="com.example.login_backend.DetailedAnnouncementActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ViewAnnouncements"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ViewComplaints"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.InCSPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.Admin_main"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.NewEvent"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.NewAnnouncement"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.FeedbackSummaryPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.EventPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ComplaintDetailsPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.AnnouncementPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.AnnouncementDetailsPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.Login_student_view"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Dark.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.login_backend.StudentHomePage"
+            android:exported="false" />
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.adminhomepage.androidx-startup"
+            android:authorities="com.example.login_backend.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -80,6 +206,28 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.login_backend.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

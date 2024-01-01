@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="blue">#0F0FFF</color>
     <color name="green">#00FF00</color>
-    <color name="light_blue">#FF00FFFF</color>
+    <color name="red">#FF0000</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">AdminHomePage</string>
-    <style name="Base.Theme.AdminHomePage" parent="Theme.Material3.DayNight.NoActionBar">
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="admin_page">admin_page</string>
+    <string name="app_name">Login_backend</string>
+    <string name="click_to_login">click to login</string>
+    <string name="email">Email</string>
+    <string name="eventMessage1">Please provide event name!</string>
+    <string name="eventMessage2">Please provide description of the event</string>
+    <string name="eventMessage3">Please provide a limit of the number of students that can participate</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId" translatable="false">81821667356</string>
+    <string name="google_api_key" translatable="false">AIzaSyAuV-oREIQHx8K9aObTM6OlMJn73p3sUgU</string>
+    <string name="google_app_id" translatable="false">1:81821667356:android:66e86b32d8e35ebfe5cfd9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAuV-oREIQHx8K9aObTM6OlMJn73p3sUgU</string>
+    <string name="google_storage_bucket" translatable="false">b07project-34336.appspot.com</string>
+    <string name="login">Login</string>
+    <string name="next">Next</string>
+    <string name="password">Password</string>
+    <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">b07project-34336</string>
+    <string name="register">Register</string>
+    <string name="register_now">Register now</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="student_page">Student_page</string>
+    <string name="username">Username</string>
+    <style name="Base.Theme.Login_backend" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style>
-    <style name="Theme.AdminHomePage" parent="Base.Theme.AdminHomePage"/>
+    <style name="Theme.Login_backend" parent="Base.Theme.Login_backend"/>
 </resources>
